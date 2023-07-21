@@ -5,10 +5,12 @@ const Error = () => {
   const error = useRouteError()
   if (error.status === 404) {
     return (
-      <div className="container">
+      <div className="container-error">
         <img src={img} alt="not found" />
         <h3>Ohh!</h3>
-        <p>We can't seem to find page you are looking for</p>
+        <p className="error-text">
+          We can't seem to find page you are looking for
+        </p>
         <Link to="/" className="waves-effect waves-light btn">
           back home
         </Link>

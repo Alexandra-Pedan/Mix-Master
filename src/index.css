@@ -395,6 +395,7 @@ input[type='search']:not(.browser-default) {
   .container-page {
     margin-top: calc(2rem + 112px);
   }
+
   .form-search {
     width: 100%;
     margin-top: 0;
@@ -406,4 +407,18 @@ input[type='search']:not(.browser-default) {
 
     margin-bottom: 10px;
   }
+}
+.container-error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+.error-text {
+  margin: 50px auto;
+}
+.container-error img {
+  margin-bottom: 50px;
 }
