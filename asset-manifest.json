@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Mix-Master/static/css/main.8fec7add.css",
-    "main.js": "/Mix-Master/static/js/main.eb89a1f8.js",
+    "main.js": "/Mix-Master/static/js/main.f879e30d.js",
     "static/media/not-found.svg": "/Mix-Master/static/media/not-found.495eef6150d357c6c444499220731bb0.svg",
     "index.html": "/Mix-Master/index.html",
     "main.8fec7add.css.map": "/Mix-Master/static/css/main.8fec7add.css.map",
-    "main.eb89a1f8.js.map": "/Mix-Master/static/js/main.eb89a1f8.js.map"
+    "main.f879e30d.js.map": "/Mix-Master/static/js/main.f879e30d.js.map"
   },
   "entrypoints": [
     "static/css/main.8fec7add.css",
-    "static/js/main.eb89a1f8.js"
+    "static/js/main.f879e30d.js"
   ]
 }
