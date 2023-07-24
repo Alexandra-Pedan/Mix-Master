@@ -14,11 +14,8 @@ import { loader as landingLoader } from './pages/Landing'
 import { loader as singleCocktailLoader } from './pages/Cocktail'
 import { action as newsletterAction } from './pages/Newsletter'
 
-const homepageUrl = 'https://Alexandra-Pedan.github.io/Mix-Master'
-
 const router = createBrowserRouter([
   {
-    basename: homepageUrl,
     path: '/',
     element: <HomeLayout />,
     errorElement: <Error />,
